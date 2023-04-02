@@ -15,4 +15,4 @@ Im using https://developers.themoviedb.org/3 free API
 <img src="https://user-images.githubusercontent.com/90816980/229334640-360ae2ce-ba9c-4dc6-b4af-e968df6ea9cf.png"/>
 
 <h3>4. Simple responsive layout </h3>
-<img src="(https://user-images.githubusercontent.com/90816980/229334668-c29a3bbe-71a6-4b30-8557-4bf5f9a3b71f.png"/>
+<img src="https://user-images.githubusercontent.com/90816980/229334668-c29a3bbe-71a6-4b30-8557-4bf5f9a3b71f.png"/>
