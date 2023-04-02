@@ -1,0 +1,118 @@
+.main-page-container {
+  background-color: #282828;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-page-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #363636;
+}
+
+.main-page-navbar-logo {
+  background-color: #00897b;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.main-page-navbar-search {
+  width: 420px;
+}
+
+.main-page-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.main-page-card {
+  background-color: #00564d;
+  padding: 20px;
+  flex: 0 1 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.main-page-card-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  border: 1px solid white;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.main-page-card-image-desc {
+  position: absolute;
+  inset: auto auto auto 0;
+  transition: inset 0.3s 0.3s ease-out;
+  font-size: 14px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.main-page-card:hover .card-image {
+  filter: blur(10px);
+  transition: filter 0.3s ease-in;
+}
+
+.main-page-card:hover .main-page-card-image-desc {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.main-page-card-title {
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+.main-page-card-desc {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .main-page-navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-page-navbar-search {
+    width: 340px;
+  }
+}
